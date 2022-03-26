@@ -26,7 +26,7 @@ for(int i=1; i<grey.rows-1; i++){
 
 			grey.at<uchar>(i,j)=0;
 
-		//if the value of the pixel is inferior to the threshold, then decrease the connected pixels
+		//if the value of the pixel is superior to the threshold, then decrease the connected pixels
 		//by the error(difference between the threshold and the pixel).
 		}else if ((int)grey.at<uchar>(i,j)>thresh){
 
