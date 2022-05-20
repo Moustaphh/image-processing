@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/Image.dir/src/main.cpp.o CMakeFiles/Image.dir/src/Image.cpp.o CMakeFiles/Image.dir/home/moustaph/Projects/git_proj/im-proc/dither/FS/floyds.cpp.o CMakeFiles/Image.dir/src/rgb2gray.cpp.o  -o Image 
