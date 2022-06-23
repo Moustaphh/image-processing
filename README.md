@@ -15,3 +15,24 @@ You will need OpenCV for C++ installed in your computer.
 <img src="dither/ressources/lenna.png" width="425"/> <img src="dither/ressources/dithered.png" width="425"/>
 
 
+![rgb to grey ](grey)
+
+
+<img src="dither/ressources/grey.jpg" width="425"/>
+
+
+
+![grey to black and white  ](binarize)
+
+
+
+<img src="dither/ressources/bw.jpg" width="425"/>
+
+
+
+
+
+
+
+
+
