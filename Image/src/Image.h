@@ -28,6 +28,7 @@ class Image {
 	ImageType get_file_type(const char* filename);
 
 	void rgb2gray(int chs);
+	void gray2bw();
 	uint8_t& at(int j, int i);
 	void floyds();
 };

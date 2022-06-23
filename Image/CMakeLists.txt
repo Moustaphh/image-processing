@@ -6,7 +6,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 
 include_directories(src)
 
-add_executable(Image src/main.cpp src/Image.cpp src/Image.h src/stb_image_write.h src/stb_image.h ../dither/FS/floyds.cpp src/rgb2gray.cpp)
+add_executable(Image src/main.cpp src/Image.cpp src/Image.h src/stb_image_write.h src/stb_image.h 
+../dither/FS/floyds.cpp ../grey/rgb2gray.cpp ../binarize/gray2bw.cpp)
 
 target_include_directories(Image PRIVATE include)
 
